@@ -1,0 +1,341 @@
+html{
+    font-family: "Commissioner", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "FLAR" 0,
+      "VOLM" 0;
+}
+
+.personajes-container {
+    display: flex;
+    justify-content: center; /* Alinea los personajes al centro */
+    align-items: center; /* Asegura que estén alineados verticalmente */
+    gap: 40px; /* Espacio entre los personajes */
+    width: 100%; /* Asegura que use todo el ancho disponible */
+    max-width: 1000px; /* Evita que se expanda demasiado */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px 0; /* Espacio arriba y abajo */
+}
+
+.personaje {
+    text-align: center;
+}
+
+.personaje img {
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.personaje img:hover {
+    transform: scale(1.05); /* Efecto de agrandamiento */
+}
+
+body{
+
+    background-image: url(img/backgrounds/EndeavorInsideAgency.jpg);
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(0.2rem); 
+    overflow-x: hidden;  
+    overflow-y: visible; 
+}
+
+.pjsizq{
+    display: flex;
+    justify-content: left;
+}
+
+.pjsder{
+    display: flex;
+    justify-content: right;
+}
+
+#mirio{
+    position: relative;
+    left: -50px;
+    z-index: 3;
+    top: 4px;
+}
+
+#bakugo{
+    position: absolute;
+    left: 150px;
+    z-index: 2;
+    margin-top: 4px;
+}
+
+#kurogiri{
+    position: absolute;
+    left: 250px;
+    z-index: 1;
+    margin-top: 4px;
+}
+
+#catastrophe{
+    display: flex;
+    position: absolute;
+    right: -199px;
+    margin-right: 0px;
+    top: 58px;
+    z-index: 3;
+}
+
+#machinegun{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 58px;
+    z-index: 2;
+}
+
+#icefang{
+    display: flex;
+    position: absolute;
+    right: 200px;
+    top: 58px;
+    z-index: 1;
+}
+
+#titulo{
+    color:#f0f8ff;
+    width: 50%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px 30px;
+    backdrop-filter: blur(0.4rem);
+    top: 100px;
+    text-align: center;
+    left: 25%;
+    position: absolute;
+    z-index: 10;
+    border: 2px solid rgba(255, 255, 255, 0.288);
+    border-radius: 1rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 50px;
+}
+
+.containersub{
+    background-color: #2e2e2e;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border-radius: 1rem;
+}
+
+#subcenter{
+    background-image: url(Img/backgrounds/heroesrescue.png);
+    background-size: 100% 100%;
+    background-position: bottom;
+    background-attachment: flex;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50%;
+    max-width: 100%;
+    top: 440px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    text-align: center;
+    left: 25%;
+    z-index: 10;
+    color: rgb(233, 233, 233);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    overflow: hidden;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 20px;
+}
+
+#subcenter::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(0.2rem); 
+    border-radius: 1rem; 
+    z-index: -1;
+}
+
+.textocentrado{
+    text-align: center;
+    padding: 1px 0;
+    color:azure;
+}
+
+#infoweb{
+    padding-top: 250px;
+}
+
+
+
+#mirioselect{
+    border-color: rgba(255, 255, 255, 0.336);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#mirioselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#nejireselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#nejireselect{
+    display: flex;
+}
+
+#twiceselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#twiceselect{
+    display: flex;
+}
+
+#denkiselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#denkiselect{
+    display: inline-block;
+}
+
+#amselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#amselect{
+    display: flex;
+}
+
+#urarakaselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#urarakaselect{
+    display: flex;
+}
+
+#dekuselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#dekuselect{
+    display: inline-block;
+}
+
+#hawksselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#hawksselect{
+    display: flex;
+}
+
+#presentselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#presentselect{
+    display: flex;
+}
+
+#overhaulselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#overhaulselect{
+    display: inline-block;
+}
+
+#afoselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#afoselect{
+    display: flex;
+}
+
+#bakugoselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#bakugoselect{
+    display: flex;
+}
+
+.aliceblue{
+    color: aliceblue;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#miriotextselect{
+    display:flex;
+    margin-left: 20px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 30%;
+    justify-content: center;
+}
+
+header{
+    padding: 0;
+}
+
