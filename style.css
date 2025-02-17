@@ -320,6 +320,42 @@ body{
     display: flex;
 }
 
+#todorokiselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#todorokiselect{
+    display: inline-block;
+}
+
+#endeavorselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#endeavorselect{
+    display: flex;
+}
+
+#dabiselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#dabiselect{
+    display: flex;
+}
+
 .aliceblue{
     color: aliceblue;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
