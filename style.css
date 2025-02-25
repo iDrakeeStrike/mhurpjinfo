@@ -392,6 +392,90 @@ body{
     display: flex;
 }
 
+#tsuyuselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#tsuyuselect{
+    display: inline-block;
+}
+
+#aizawaselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#aizawaselect{
+    display: flex;
+}
+
+#momoselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#momoselect{
+    display: flex;
+}
+
+#compressselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#compressselect{
+    display: inline-block;
+}
+
+#kendoselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#kendoselect{
+    display: flex;
+}
+
+#cementossselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#cementossselect{
+    display: flex;
+}
+
+#ibaraselect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transition: all 0.6s ease;
+}
+
+#ibaraselect{
+    display: inline-block;
+}
+
 .aliceblue{
     color: aliceblue;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
