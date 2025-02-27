@@ -1,0 +1,179 @@
+html, body {
+    height: 100%;
+    overflow-y: auto; /* Asegura que toda la página pueda scrollear */
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    
+}
+
+.texto_simple, .skilltitle, #dmgtabla, #fullbulletdesch1{
+    color: white;
+}
+
+#header1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    background-color: #364552;
+}
+
+#title-container {
+    display: flex;
+    align-items: center; /* Alinea los títulos horizontalmente */
+    gap: 15px; /* Ajusta la separación entre los títulos */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#returninicio {
+    transition: all 0.6s ease;
+    margin-right: 40px; /* Ajusta la posición hacia adentro */
+    text-decoration: none; /* Quita el subrayado azul */
+    color: white;
+    padding: 1rem; /* Asegura que se mantenga blanco */
+    border-radius: 1rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#returninicio:hover {
+    color: lightgray;
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transform: scale(1.05); /* Cambio de color opcional al pasar el mouse */
+    border: 1px solid rgba(245, 222, 179, 0.39);
+}
+
+a{
+    text-decoration: none;
+}
+
+#fullbulleth1{
+    transition: all 0.6s ease;
+    border: 1px solid rgba(245, 222, 179, 0.39);
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 0px;
+    color:azure;
+    cursor: default;
+    font-size: 30px;
+}
+
+#fullbulleth1:hover{
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transform: scale(1.05); /* Cambio de color opcional al pasar el mouse */
+    border-color: whitesmoke;
+}
+
+#pjinfoh1{
+    transition: all 0.6s ease;
+    border: 1px solid rgba(245, 222, 179, 0.39);
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 5px;
+    font-size: 60px;
+    cursor: default;
+    color:azure;
+}
+
+#pjinfoh1:hover{
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transform: scale(1.05); /* Cambio de color opcional al pasar el mouse */
+    border-color: whitesmoke;
+}
+
+#main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    top: 10px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.articulo{
+    transition: all 0.6s ease;
+    background-color: #3e3e3e;
+    margin: 1,5rem 0;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    grid-gap: 20px;
+    border: 1px solid rgba(245, 222, 179, 0.39);
+}
+
+.articulo:hover{
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transform: scale(1.05);
+    border-color: rgba(245, 222, 179, 0.885);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2e2e;
+}
+
+main {
+    display: flex; /* Acomoda los elementos en línea */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    margin-top: 100px; /* Ajusta según la altura del header */
+    padding: 20px;
+}
+
+#fullbulletimgcontainer {
+    transition: all 0.6s ease;
+    position: sticky;
+    top: 140px; /* Para que no tape el header */
+    left: 5px;
+    width: 500px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    border: 1px solid rgba(245, 222, 179, 0.39);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#fullbulletimgcontainer:hover {
+    box-shadow: 0 1rem 1.6rem rgba(0,0,0,0.3);
+    transform: scale(1.05);
+    border-color: rgba(245, 222, 179, 0.885);
+}
+
+#fbimg{
+    padding: 1px;
+    margin: 1px;
+    border-color: whitesmoke;
+}
+
+table, th, td {
+    border: 1px solid wheat;
+    text-align: center;
+    background-color:rgb(69, 69, 69);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+th{
+    background-color:rgb(170, 52, 52);
+}
+
+td:hover{
+    background-color:rgb(169, 158, 58);
+}
